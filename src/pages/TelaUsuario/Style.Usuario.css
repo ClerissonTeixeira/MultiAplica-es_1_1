@@ -1,0 +1,40 @@
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(180deg, #363467 0%, rgba(30,29,79,0.8) 100%);
+  display: flex;
+  justify-content: center; /* inicia a partir da esquerda */
+  align-items: center; /* alinha verticalmente */
+  gap: 50px;
+  padding-left: 30px;
+  flex-wrap: wrap; /* quebra em telas pequenas */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.usuario-container {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  align-items: flex-start; /* ou center, dependendo do que você quiser */
+  flex-wrap: wrap; /* caso queira que em telas pequenas quebre para baixo */
+  padding: 30px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid black;
+    
+   
+}
+
+
+

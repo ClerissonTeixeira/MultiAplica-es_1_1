@@ -1,0 +1,57 @@
+.trash-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.containerToDo {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formToDo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.buttCadastroToDo {
+  padding: 8px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: cornflowerblue;
+
+}
+
+.usercardToDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rosybrown;
+
+}
+
+.listaDeTarefasToDo {
+  height: 300px;
+  /* altura fixa do bloco */
+  overflow-y: auto;
+  /* ativa rolagem vertical se necessário */
+  padding-right: 10px;
+  /* espaço pro scroll não colar nos botões */
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* espaço entre tarefas */
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}

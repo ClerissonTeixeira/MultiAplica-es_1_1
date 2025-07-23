@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 350px;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.input-email, 
+.input-nome,
+.input-passw {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.butt-cadastro {
+  background-color: #F5750F;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.butt-cadastro:hover {
+  background-color: #d86400;
+}
+
+.butt-cadastro {
+  background-color: #F5750F;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.butt-cadastro:hover {
+  background-color: #d86400;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
